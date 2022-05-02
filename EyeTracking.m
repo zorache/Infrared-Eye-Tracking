@@ -67,7 +67,6 @@ out_a=regionprops(L);
 % Count the number of objects
 N=size(out_a,1);
 
-% this while look just runs forever?
 if N < 1 || isempty(out_a) % Returns if no object in the image
     solo_cara=[ ];
     continue
